@@ -1,0 +1,8 @@
+{
+  "label": "Formatação da Documentação",
+  "position": 999,
+  "link": {
+    "type": "generated-index",
+    "description": "Padrões de pesquisa, escrita, fontes e formatação da documentação."
+  }
+}
