@@ -6,16 +6,27 @@ description: Fatores econômicos, operacionais, logísticos e regulatórios do s
 ---
 
 # Drivers, tendências e desafios
-
 ## Drivers do setor
-
 | Categoria | Driver | Evidência | Impacto no setor | Impacto na empresa | Fonte |
 |---|---|---|---|---|---|
-| Econômico | [Preencher] | [Preencher] | [Preencher] | [Preencher] | [Preencher] |
-| Produtivo e operacional | [Preencher] | [Preencher] | [Preencher] | [Preencher] | [Preencher] |
-| Logístico | [Preencher] | [Preencher] | [Preencher] | [Preencher] | [Preencher] |
-| Regulatório, quando aplicável | [Preencher] | [Preencher] | [Preencher] | [Preencher] | [Preencher] |
-
+| Econômico | Paridade açúcar x etanol | Na safra 2025/26, a Raízen priorizou o açúcar; mix de 56% açúcar e 44% etanol no 2º trimestre | Usinas ajustam o mix conforme o produto mais rentável, dentro dos limites técnicos | Protege a margem, mas exige capacidade instalada para os dois produtos | Raízen, release 2T 2025/26 |
+| Econômico | Câmbio, petróleo e preço da gasolina | Açúcar é cotado em dólar; o etanol hidratado só compete quando custa até cerca de 70% da gasolina | Real desvalorizado aumenta a receita em reais; a política de preços da Petrobras define a demanda por etanol | Receita de açúcar e vendas de etanol oscilam com fatores fora do controle da empresa | [Fonte a definir] |
+| Econômico | Custo de capital e endividamento | Dívida líquida de R$ 49,2 bi no 1T 2025/26; plano de recuperação com venda de ativos e meta de alavancagem entre 2,0 e 2,5 vezes | Juros altos encarecem investimentos em um setor intensivo em capital | Menos caixa para renovar o canavial, o que pode derrubar a produtividade futura | Raízen, release 1T 2025/26 |
+| Econômico | Mercado clandestino de combustíveis | A empresa citou sonegação e adulteração como pressão sobre margens | Concorrência desleal reduz margens de quem atua de forma regular | Pressiona a margem da distribuição de etanol e gasolina | Raízen, releases 2025/26 |
+| Produtivo e operacional | Clima | Moagem caiu para 24,5 mi t no 1T 2025/26, contra 30,9 mi t no ano anterior, por chuvas persistentes | Seca, geada e queimadas reduzem quantidade e qualidade da cana por mais de uma safra | Menos cana para diluir custos fixos e menos biomassa para a cogeração | Raízen, release 1T 2025/26 |
+| Produtivo e operacional | Produtividade agrícola (TCH e ATR) e idade do canavial | ATR caiu de 147 para 142 kg/t e TCH de 76 para 73 t/ha no 2T 2025/26 | ATR por hectare é o principal indicador de eficiência agrícola; canaviais velhos rendem menos | Queda de produtividade se soma à restrição de caixa para renovação | Raízen, release 2T 2025/26 |
+| Produtivo e operacional | Escala e ocupação das usinas | De 30 usinas no início de 2025/26 para 24 em 2026/27 (vendas e hibernações), mantendo capacidade de 69 mi t; venda da Caarapó por R$ 760 mi em 2026 | Custo fixo alto faz usinas ociosas darem prejuízo | Concentração nas usinas mais eficientes; impacto na rede de manutenção e estoques | Raízen; notícia sobre venda à Adecoagro |
+| Produtivo e operacional | Etanol de segunda geração (E2G) | Tecnologia própria; pode elevar a capacidade de etanol em cerca de 50% sem mais terra; prêmio de até o dobro do etanol comum | Abre mercado premium de baixo carbono, principalmente na Europa, EUA e Ásia | Diferencial competitivo, mas o investimento pressionou o caixa; o plano de 20 plantas até 2030/31 virou dilema | Raízen, site institucional; análises de mercado |
+| Produtivo e operacional | Cogeração de energia | 537 mil MWh no 1T 2025/26, afetada por menos biomassa | Receita mais estável, ligada ao volume de moagem | Diversifica receita, mas sofre junto quando a moagem cai | Raízen, release 1T 2025/26 |
+| Logístico | Sincronia entre campo e usina | Cerca de 750 caminhões por safra para transportar 45 mi t de cana; operação 24h | Cana perde açúcar se não for moída logo; canaviais precisam ficar perto das usinas | Exige alta disponibilidade de frota e coordenação fina entre colheita e moagem | Raízen, site institucional |
+| Logístico | Escoamento para exportação | Operação no Porto de Santos; contrato de R$ 916 mi com a Rumo para transporte ferroviário (2025) | Custo e capacidade de rodovias, ferrovias e portos definem a competitividade da exportação | Garante escoamento, mas cria dependência de um corredor logístico | Rumo / Cosan, 2025 |
+| Logístico | Sazonalidade e armazenagem | Safra de cerca de 8 meses, consumo o ano todo | Usinas precisam estocar e escolher quando vender | Estocar etanol para a entressafra é uma decisão comercial relevante; integração com a rede Shell dá visibilidade da demanda | [Fonte a definir] |
+| Regulatório, quando aplicável | Mistura obrigatória de etanol na gasolina | CNPE aprovou alta de 27% para 30% em agosto de 2025; Lei do Combustível do Futuro (2024) permite até 35% | Principal motor de demanda do etanol anidro | Aumenta a demanda garantida para o etanol da empresa | CNPE, 2025; Lei do Combustível do Futuro, 2024 |
+| Regulatório, quando aplicável | RenovaBio e CBIOs | Usinas certificadas geram créditos por litro vendido; distribuidoras são obrigadas a comprar | Premia a eficiência em carbono | Receita adicional com CBIOs, maior para operações mais eficientes como E2G | ANP / RenovaBio |
+| Regulatório, quando aplicável | Novos mercados (biometano, SAF, diesel verde) | Estimulados pela Lei do Combustível do Futuro | Cria novos usos para etanol e resíduos da cana | Oportunidade de valorizar vinhaça, bagaço e etanol | Lei do Combustível do Futuro, 2024 |
+| Regulatório, quando aplicável | CONSECANA | Pagamento da cana de terceiros baseado no ATR e nos preços de açúcar e etanol | Divide riscos e ganhos entre usina e produtor | Custo da cana comprada acompanha os preços de venda | CONSECANA |
+| Regulatório, quando aplicável | Regras ambientais e trabalhistas | Fim gradual da queima da cana em SP; regras sobre vinhaça, emissões e água | Acelerou a colheita mecanizada | Mais dependência de máquinas, e portanto de manutenção e peças | Legislação ambiental de SP |
+| Regulatório, quando aplicável | Recuperação extrajudicial | Plano homologado orienta investimentos e venda de ativos | Não se aplica ao setor como um todo | Decisões de investimento e desinvestimento passam pelo plano | Raízen, comunicados ao mercado |
 ---
 
 ## Principais tendências
@@ -115,3 +126,23 @@ Nesse cenário, a priorização estratégica recai sobre a **continuidade operac
 - NOVACANA. Notícias e dados do setor sucroenergético. 2026. Disponível em: https://www.novacana.com. Acesso em: 25/09/2026.
 - RAÍZEN. Relatório Integrado Safra 24’25. 2025. Disponível em: https://www.raizen.com.br/relatorio-anual-2425-pt. Acesso em: 25/09/2026.
 - UNICA — UNIÃO DA INDÚSTRIA DE CANA-DE-AÇÚCAR E BIOENERGIA. O Setor: Açúcar, Etanol, Bioeletricidade e CBIO. 2026. Disponível em: https://unica.com.br. Acesso em: 25/09/2026.
+- BANCO SAFRA. Equity Research Atualização: Raízen – Açúcar e Etanol. 2025. Disponível em: oespecialista.safra.com.br/wp-content/uploads/2025/10/PROSPECT-32630.pdf. Acesso em: 03/10/2026.
+- BAND. Etanol ou gasolina? Veja o que vale mais a pena na hora de abastecer. 2026. Disponível em: band.com.br/economia/noticias/etanol-ou-gasolina-veja-o-que-vale-mais-a-pena-na-hora-de-abastecer-202606291059. Acesso em: 03/10/2026.
+- BP MONEY. Raízen inicia operações da maior planta de E2G do mundo. 2023. Disponível em: bpmoney.com.br/?p=176027. Acesso em: 03/10/2026.
+- CANA ONLINE. Consecana-SP publica revisão e garante adicional ao produtor. 2026. Disponível em: canaonline.com.br/conteudo/consecana-sp-publica-revisao-e-garante-adicional-ao-produtor.html. Acesso em: 03/10/2026.
+- CANA ONLINE. Raízen registra queda na moagem e impacto climático na safra 2025/26, mostra prévia operacional. 2026. Disponível em: canaonline.com.br/conteudo/raizen-registra-queda-na-moagem-e-impacto-climatico-na-safra-202526-mostra-previa-operacional.html. Acesso em: 03/10/2026.
+- CENÁRIO ENERGIA. Marco legal do Combustível do Futuro pavimenta caminho para autossuficiência e projeta R$ 260 bilhões em investimentos. 2026. Disponível em: cenarioenergia.com.br/2026/05/20/marco-legal-do-combustivel-do-futuro-pavimenta-caminho-para-autossuficiencia-e-projeta-r-260-bilhoes-em-investimentos/. Acesso em: 03/10/2026.
+- EIXOS. Mercado paga até duas vezes mais por etanol de segunda geração, diz CEO da Raízen. 2024. Disponível em: eixos.com.br/mercado-paga-ate-duas-vezes-mais-por-etanol-de-segunda-geracao-diz-ceo-da-raizen/. Acesso em: 03/10/2026.
+- ETANOL EFICIENTE. O mito dos 70%. s.d. Disponível em: etanoleficiente.org.br/mito-dos-70. Acesso em: 03/10/2026.
+- GAZETA DO POVO. Raízen vende usina no MS por R$ 760 milhões em meio a recuperação extrajudicial. 2026. Disponível em: gazetadopovo.com.br/economia/raizen-vende-usina-no-ms-por-760-milhoes-em-meio-a-recuperacao-extrajudicial/. Acesso em: 03/10/2026.
+- INVESTNEWS. Recuperação extrajudicial da Raízen pode afetar outras empresas na bolsa, da JSL a MRS Logística. 2026. Disponível em: investnews.com.br/investimentos/recuperacao-da-raizen-pode-afetar-outras-empresas-na-bolsa-da-jsl-a-mrs-logistica/amp/. Acesso em: 03/10/2026.
+- NOTÍCIAS AGRÍCOLAS. Raízen começa desestocagem de açúcar após recuo nas vendas trimestrais, diz CEO. s.d. Disponível em: noticiasagricolas.com.br/noticia/363751. Acesso em: 03/10/2026.
+- NOVACANA. Após vender R$ 5 bi, Raízen diz que programa de desinvestimentos ainda não terminou. 2025. Disponível em: novacana.com/noticias/vender-r-5-bilhoes-raizen-programa-desinvestimentos-nao-terminou-171125. Acesso em: 03/10/2026.
+- NOVACANA. Raízen inicia operação de planta de etanol de segunda geração em Guariba (SP). 2023. Disponível em: novacana.com/noticias/raizen-inicia-operacao-planta-etanol-segunda-geracao-guariba-sp-061023. Acesso em: 03/10/2026.
+- PLANETA CAMPO. O caminho da cana: da lavoura aos produtos que fazem parte do nosso dia a dia. 2025. Disponível em: planetacampo.canalrural.com.br/agricultura/cana-lavoura-produtos-fazem-parte-dia-a-dia/. Acesso em: 03/10/2026.
+- PODER360. 2 anos da Lei do Combustível do Futuro. 2026. Disponível em: poder360.com.br/opiniao/2-anos-da-lei-do-combustivel-do-futuro/. Acesso em: 03/10/2026.
+- RPANEWS. Raízen divulga prévia do 2T 2025/26 com alta no açúcar e avanço do etanol 2G. 2025. Disponível em: revistarpanews.com.br/raizen-divulga-previa-do-2t-2025-26-com-alta-no-acucar-e-avanco-do-etanol-2g/. Acesso em: 03/10/2026.
+- RPANEWS. Safra 25/26: Raízen sente impacto climático, mas aposta em etanol de segunda geração. 2025. Disponível em: revistarpanews.com.br/safra-25-26-raizen-sente-impacto-climatico-mas-aposta-em-etanol-de-segunda-geracao/. Acesso em: 03/10/2026.
+- SOUNEWS. Raízen reduz moagem de cana em quase 10% na safra 2025/26, mas amplia produção de açúcar e etanol de segunda geração. 2026. Disponível em: sounews.com.br/raizen-reduz-moagem-de-cana-em-quase-10-na-safra-2025-26-mas-amplia-producao-de-acucar-e-etanol-de-segunda-geracao/. Acesso em: 03/10/2026.
+- SUPERÚTIL. Após acordo com credores, Raízen acelera venda de ativos e fecha negócio de R$ 760 milhões. 2026. Disponível em: superutil.com.br/apos-acordo-com-credores-raizen-acelera-venda-de-ativos-e-fecha-negocio-de-r-760-milhoes/. Acesso em: 03/10/2026.
+- VISÃO AGRO. Raízen encerra safra 2024/25 com queda na moagem, mas avanço expressivo no etanol de segunda geração. 2026. Disponível em: visaoagro.com.br/raizen-encerra-safra-2024-25-com-queda-na-moagem-e-avanco-no-etanol-de-segunda-geracao/. Acesso em: 03/10/2026.
