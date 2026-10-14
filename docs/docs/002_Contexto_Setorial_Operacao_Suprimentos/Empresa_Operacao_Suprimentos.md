@@ -177,88 +177,9 @@ Na Raízen, a manutenção funciona em dois regimes complementares:
 
 Entre 2023/24 e 2025/26, a Raízen enfrentou clima adverso, venda de usinas e uma crise financeira que levou à recuperação extrajudicial. O gráfico abaixo usa um índice com base 2023/24 = 100 para comparar, na mesma escala, a evolução do investimento em manutenção, do investimento em expansão e da cana moída.
 
-<style>{`
-.viz-manut{--surface:#fcfcfb;--ink:#0b0b0b;--ink2:#52514e;--muted:#898781;--grid:#e1e0d9;--axis:#c3c2b7;--s1:#2a78d6;--s2:#eb6834;--s3:#1baf7a;--s4:#eda100;background:var(--surface);border:1px solid rgba(11,11,11,0.10);border-radius:8px;padding:16px;margin:16px 0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink)}
-[data-theme='dark'] .viz-manut{--surface:#1a1a19;--ink:#ffffff;--ink2:#c3c2b7;--muted:#898781;--grid:#2c2c2a;--axis:#383835;--s1:#3987e5;--s2:#d95926;--s3:#199e70;--s4:#c98500;border-color:rgba(255,255,255,0.10)}
-.viz-manut .vm-title{font-weight:600;font-size:15px;margin:0 0 4px}
-.viz-manut .vm-sub{font-size:13px;color:var(--ink2);margin:0 0 12px}
-.viz-manut .vm-legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:13px;color:var(--ink2);margin-bottom:8px}
-.viz-manut .vm-legend span{display:inline-flex;align-items:center;gap:6px}
-.viz-manut .vm-legend svg{flex:none}
-.viz-manut .vm-scroll{overflow-x:auto}
-.viz-manut svg.vm-plot{width:100%;min-width:560px;height:auto;display:block}
-.viz-manut .grid{stroke:var(--grid);stroke-width:1}
-.viz-manut .base{stroke:var(--axis);stroke-width:1}
-.viz-manut .tick{fill:var(--muted);font-size:12px;font-variant-numeric:tabular-nums}
-.viz-manut .lbl{fill:var(--ink);font-size:12.5px}
-.viz-manut .ln{fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-.viz-manut .c1{stroke:var(--s1)} .viz-manut .f1{fill:var(--s1)}
-.viz-manut .c2{stroke:var(--s2)} .viz-manut .f2{fill:var(--s2)}
-.viz-manut .c3{stroke:var(--s3)} .viz-manut .f3{fill:var(--s3)}
-.viz-manut .c4{stroke:var(--s4)} .viz-manut .f4{fill:var(--s4)}
-.viz-manut .f0{fill:var(--ink2)}
-.viz-manut .mk{stroke:var(--surface);stroke-width:2}
-.viz-manut .bar{fill:var(--s1)}
-.viz-manut .node{fill:var(--surface);stroke:var(--axis);stroke-width:1.5}
-.viz-manut .ntitle{fill:var(--ink);font-size:14px;font-weight:600}
-.viz-manut .nsub{fill:var(--ink2);font-size:11.5px}
-.viz-manut .fl-mat{stroke:var(--s1);stroke-width:2;fill:none}
-.viz-manut .fl-inf{stroke:var(--s2);stroke-width:2;stroke-dasharray:6 4;fill:none}
-.viz-manut .fl-dec{stroke:var(--s3);stroke-width:2;stroke-dasharray:10 4 2 4;fill:none}
-.viz-manut .ah1{fill:var(--s1)} .viz-manut .ah2{fill:var(--s2)} .viz-manut .ah3{fill:var(--s3)}
-.viz-manut .badge{fill:var(--surface);stroke:var(--ink2);stroke-width:1.2}
-.viz-manut .btxt{fill:var(--ink);font-size:11px;font-weight:600}
-.viz-manut .pt:hover .badge{stroke:var(--ink);stroke-width:2}
-.viz-manut .bar-g:hover .bar{fill:var(--s1);opacity:.82}
-.viz-manut .val{fill:var(--ink);font-size:13px;font-weight:600;font-variant-numeric:tabular-nums}
-.viz-manut .hit{fill:transparent;cursor:pointer}
-.viz-manut .pt:hover .mk{stroke:var(--ink)}
-`}</style>
-
 <p style={{textAlign: 'center'}}>Figura 1 — Investimento em manutenção, investimento em expansão e cana moída no segmento EAB da Raízen (índice 2023/24 = 100)</p>
 
-<div className="viz-manut" role="figure" aria-label="Gráfico de linhas com índice base 2023/24 igual a 100. Em 2025/26, Agroindustrial e SSMA ficou em 95,4; manutenção de entressafra em 90,9; cana moída em 83,7; expansão e projetos em 34,6.">
-  <p className="vm-title">Manutenção preservada enquanto a expansão foi cortada</p>
-  <p className="vm-sub">Índice, 2023/24 = 100. Valores nominais. Passe o cursor sobre os pontos para ver os valores absolutos.</p>
-  <div className="vm-legend">
-    <span><svg width="22" height="10"><line x1="1" y1="5" x2="21" y2="5" className="ln c1"/></svg>Investimento: manutenção de entressafra</span>
-    <span><svg width="22" height="10"><line x1="1" y1="5" x2="21" y2="5" className="ln c2"/></svg>Investimento: agroindustrial, segurança, saúde e meio ambiente</span>
-    <span><svg width="22" height="10"><line x1="1" y1="5" x2="21" y2="5" className="ln c3" strokeDasharray="5 4"/></svg>Resultado: cana moída</span>
-    <span><svg width="22" height="10"><line x1="1" y1="5" x2="21" y2="5" className="ln c4"/></svg>Investimento: expansão e projetos</span>
-  </div>
-  <div className="vm-scroll"><svg className="vm-plot" viewBox="0 0 720 335" role="img" aria-hidden="true">
-    <line x1="70" y1="60" x2="560" y2="60" className="grid"/>
-    <line x1="70" y1="120" x2="560" y2="120" className="grid"/>
-    <line x1="70" y1="180" x2="560" y2="180" className="grid"/>
-    <line x1="70" y1="240" x2="560" y2="240" className="grid"/>
-    <line x1="70" y1="300" x2="560" y2="300" className="base"/>
-    <text x="62" y="64" textAnchor="end" className="tick">100</text>
-    <text x="62" y="124" textAnchor="end" className="tick">80</text>
-    <text x="62" y="184" textAnchor="end" className="tick">60</text>
-    <text x="62" y="244" textAnchor="end" className="tick">40</text>
-    <text x="62" y="304" textAnchor="end" className="tick">20</text>
-    <text x="110" y="322" textAnchor="middle" className="tick">2023/24</text>
-    <text x="315" y="322" textAnchor="middle" className="tick">2024/25</text>
-    <text x="520" y="322" textAnchor="middle" className="tick">2025/26</text>
-    <polyline points="110,60 315,113.4 520,256.2" className="ln c4"/>
-    <polyline points="110,60 315,81.3 520,108.9" className="ln c3" strokeDasharray="6 5"/>
-    <polyline points="110,60 315,65.7 520,87.3" className="ln c1"/>
-    <polyline points="110,60 315,36.3 520,73.8" className="ln c2"/>
-    <g className="pt"><title>Expansão e projetos, 2024/25: R$ 3.429,7 mi (índice 82,2)</title><circle cx="315" cy="113.4" r="12" className="hit"/><circle cx="315" cy="113.4" r="4.5" className="mk f4"/></g>
-    <g className="pt"><title>Expansão e projetos, 2025/26: R$ 1.443,1 mi (índice 34,6)</title><circle cx="520" cy="256.2" r="12" className="hit"/><circle cx="520" cy="256.2" r="4.5" className="mk f4"/></g>
-    <g className="pt"><title>Cana moída, 2024/25: 78,2 milhões de t (índice 92,9)</title><circle cx="315" cy="81.3" r="12" className="hit"/><circle cx="315" cy="81.3" r="4.5" className="mk f3"/></g>
-    <g className="pt"><title>Cana moída, 2025/26: 70,5 milhões de t (índice 83,7)</title><circle cx="520" cy="108.9" r="12" className="hit"/><circle cx="520" cy="108.9" r="4.5" className="mk f3"/></g>
-    <g className="pt"><title>Manutenção de entressafra, 2024/25: R$ 517,1 mi (índice 98,1)</title><circle cx="315" cy="65.7" r="12" className="hit"/><circle cx="315" cy="65.7" r="4.5" className="mk f1"/></g>
-    <g className="pt"><title>Manutenção de entressafra, 2025/26: R$ 479,0 mi (índice 90,9)</title><circle cx="520" cy="87.3" r="12" className="hit"/><circle cx="520" cy="87.3" r="4.5" className="mk f1"/></g>
-    <g className="pt"><title>Agroindustrial, segurança, saúde e meio ambiente, 2024/25: R$ 2.369,8 mi (índice 107,9)</title><circle cx="315" cy="36.3" r="12" className="hit"/><circle cx="315" cy="36.3" r="4.5" className="mk f2"/></g>
-    <g className="pt"><title>Agroindustrial, segurança, saúde e meio ambiente, 2025/26: R$ 2.095,6 mi (índice 95,4)</title><circle cx="520" cy="73.8" r="12" className="hit"/><circle cx="520" cy="73.8" r="4.5" className="mk f2"/></g>
-    <g className="pt"><title>2023/24 (base 100): entressafra R$ 526,9 mi; agroindustrial e SSMA R$ 2.196,9 mi; expansão R$ 4.170,9 mi; cana moída 84,2 milhões de t</title><circle cx="110" cy="60" r="12" className="hit"/><circle cx="110" cy="60" r="4.5" className="mk f0"/></g>
-    <text x="534" y="74.8" className="lbl">Agroindustrial e SSMA: 95,4</text>
-    <text x="534" y="93.8" className="lbl">Entressafra: 90,9</text>
-    <text x="534" y="112.9" className="lbl">Cana moída: 83,7</text>
-    <text x="534" y="260.2" className="lbl">Expansão: 34,6</text>
-  </svg></div>
-</div>
+![Investimento em manutenção, investimento em expansão e cana moída (índice 2023/24 = 100)](../../assets/manutencao_preservada_enquanto_a_expansao_foi_cortada.png)
 
 <p style={{textAlign: 'center'}}>Fonte: Elaborado pelos autores com base em Raízen (2025b; 2026a). Os valores de 2023/24 são os reapresentados no relatório da safra 2024/25.</p>
 
@@ -327,37 +248,7 @@ As demonstrações financeiras auditadas mostram, na linha "Almoxarifado e outro
 
 <p style={{textAlign: 'center'}}>Figura 2 — Estoque de almoxarifado da Raízen ao fim de cada ano-safra (R$ milhões, consolidado)</p>
 
-<div className="viz-manut" role="figure" aria-label="Gráfico de colunas do estoque de almoxarifado e outros da Raízen em 31 de março de cada ano. 2022: 750,3 milhões de reais; 2023: 1.008,4; 2024: 1.122,9, que é o pico; 2025: 928,7; 2026: 853,2.">
-  <p className="vm-title">Estoque de almoxarifado caiu 24% desde o pico de 2024</p>
-  <p className="vm-sub">"Almoxarifado e outros" em 31 de março de cada ano, R$ milhões, consolidado. Passe o cursor sobre as colunas para ver a variação anual.</p>
-  <div className="vm-scroll"><svg className="vm-plot" viewBox="0 0 720 285" role="img" aria-hidden="true">
-    <line x1="70" y1="30" x2="700" y2="30" className="grid"/>
-    <line x1="70" y1="85" x2="700" y2="85" className="grid"/>
-    <line x1="70" y1="140" x2="700" y2="140" className="grid"/>
-    <line x1="70" y1="195" x2="700" y2="195" className="grid"/>
-    <text x="62" y="34" textAnchor="end" className="tick">1.200</text>
-    <text x="62" y="89" textAnchor="end" className="tick">900</text>
-    <text x="62" y="144" textAnchor="end" className="tick">600</text>
-    <text x="62" y="199" textAnchor="end" className="tick">300</text>
-    <text x="62" y="254" textAnchor="end" className="tick">0</text>
-    <g className="bar-g"><title>31/03/2022: R$ 750,3 milhões</title><path d="M105,250 V116.4 Q105,112.4 109,112.4 H157 Q161,112.4 161,116.4 V250 Z" className="bar"/></g>
-    <g className="bar-g"><title>31/03/2023: R$ 1.008,4 milhões (+34,4% no ano)</title><path d="M231,250 V69.1 Q231,65.1 235,65.1 H283 Q287,65.1 287,69.1 V250 Z" className="bar"/></g>
-    <g className="bar-g"><title>31/03/2024: R$ 1.122,9 milhões (+11,4% no ano), o pico da série</title><path d="M357,250 V48.1 Q357,44.1 361,44.1 H409 Q413,44.1 413,48.1 V250 Z" className="bar"/></g>
-    <g className="bar-g"><title>31/03/2025: R$ 928,7 milhões (-17,3% no ano)</title><path d="M483,250 V83.7 Q483,79.7 487,79.7 H535 Q539,79.7 539,83.7 V250 Z" className="bar"/></g>
-    <g className="bar-g"><title>31/03/2026: R$ 853,2 milhões (-8,1% no ano; -24,0% desde o pico)</title><path d="M609,250 V97.6 Q609,93.6 613,93.6 H661 Q665,93.6 665,97.6 V250 Z" className="bar"/></g>
-    <line x1="70" y1="250" x2="700" y2="250" className="base"/>
-    <text x="133" y="104.4" textAnchor="middle" className="val">750</text>
-    <text x="259" y="57.1" textAnchor="middle" className="val">1.008</text>
-    <text x="385" y="36.1" textAnchor="middle" className="val">1.123</text>
-    <text x="511" y="71.7" textAnchor="middle" className="val">929</text>
-    <text x="637" y="85.6" textAnchor="middle" className="val">853</text>
-    <text x="133" y="270" textAnchor="middle" className="tick">31/03/2022</text>
-    <text x="259" y="270" textAnchor="middle" className="tick">31/03/2023</text>
-    <text x="385" y="270" textAnchor="middle" className="tick">31/03/2024</text>
-    <text x="511" y="270" textAnchor="middle" className="tick">31/03/2025</text>
-    <text x="637" y="270" textAnchor="middle" className="tick">31/03/2026</text>
-  </svg></div>
-</div>
+![Estoque de almoxarifado da Raízen ao fim de cada ano-safra (R$ milhões)](../../assets/estoque_de_almoxarifado_caiu_24_desde_o_pico_de_2024.png)
 
 <p style={{textAlign: 'center'}}>Fonte: Elaborado pelos autores com base nas demonstrações financeiras auditadas da Raízen (2023; 2024b; 2025d; 2026c), nota "Estoques".</p>
 
@@ -422,55 +313,7 @@ As seções anteriores trataram cada área separadamente. Esta seção mostra co
 
 <p style={{textAlign: 'center'}}>Figura 3 — Mapa de interações entre operação, manutenção, Suprimentos, almoxarifado e logística</p>
 
-<div className="viz-manut" role="figure" aria-label="Mapa com cinco áreas e nove interações numeradas, descritas na Tabela 10. Fluxos de material ligam logística ao almoxarifado e o almoxarifado à manutenção. Fluxos de informação levam requisições da manutenção a Suprimentos e pedidos de Suprimentos à logística. Fluxos de decisão incluem a programação de paradas, a aprovação de compras e a compra emergencial.">
-  <p className="vm-title">Quem se relaciona com quem, e o que circula entre as áreas</p>
-  <p className="vm-sub">Os números correspondem às interações descritas na Tabela 10.</p>
-  <div className="vm-legend">
-    <span><svg width="26" height="10"><line x1="1" y1="5" x2="25" y2="5" className="fl-mat"/></svg>Material</span>
-    <span><svg width="26" height="10"><line x1="1" y1="5" x2="25" y2="5" className="fl-inf"/></svg>Informação</span>
-    <span><svg width="26" height="10"><line x1="1" y1="5" x2="25" y2="5" className="fl-dec"/></svg>Decisão</span>
-  </div>
-  <div className="vm-scroll"><svg className="vm-plot" viewBox="0 0 760 420" role="img" aria-hidden="true">
-    <defs>
-      <marker id="ra-mat" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" className="ah1"/></marker>
-      <marker id="ra-inf" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" className="ah2"/></marker>
-      <marker id="ra-dec" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" className="ah3"/></marker>
-    </defs>
-    <line x1="300" y1="78" x2="178" y2="157" className="fl-inf" markerEnd="url(#ra-inf)"/>
-    <line x1="205" y1="158" x2="327" y2="79" className="fl-dec" markerEnd="url(#ra-dec)"/>
-    <line x1="212" y1="180" x2="546" y2="180" className="fl-inf" markerEnd="url(#ra-inf)"/>
-    <line x1="548" y1="198" x2="214" y2="198" className="fl-dec" markerEnd="url(#ra-dec)"/>
-    <line x1="640" y1="218" x2="640" y2="296" className="fl-inf" markerEnd="url(#ra-inf)"/>
-    <line x1="548" y1="328" x2="474" y2="328" className="fl-mat" markerEnd="url(#ra-mat)"/>
-    <line x1="298" y1="302" x2="172" y2="220" className="fl-mat" markerEnd="url(#ra-mat)"/>
-    <line x1="462" y1="300" x2="582" y2="220" className="fl-inf" markerEnd="url(#ra-inf)"/>
-    <polyline points="90,218 90,395 690,395 690,360" className="fl-dec" markerEnd="url(#ra-dec)"/>
-    <rect x="290" y="20" width="180" height="56" rx="8" className="node"/>
-    <text x="380" y="44" textAnchor="middle" className="ntitle">Operação</text>
-    <text x="380" y="62" textAnchor="middle" className="nsub">agrícola e industrial</text>
-    <rect x="30" y="160" width="180" height="56" rx="8" className="node"/>
-    <text x="120" y="184" textAnchor="middle" className="ntitle">Manutenção</text>
-    <text x="120" y="202" textAnchor="middle" className="nsub">planejamento e execução</text>
-    <rect x="550" y="160" width="180" height="56" rx="8" className="node"/>
-    <text x="640" y="184" textAnchor="middle" className="ntitle">Suprimentos</text>
-    <text x="640" y="202" textAnchor="middle" className="nsub">área corporativa</text>
-    <rect x="290" y="300" width="180" height="56" rx="8" className="node"/>
-    <text x="380" y="324" textAnchor="middle" className="ntitle">Almoxarifado</text>
-    <text x="380" y="342" textAnchor="middle" className="nsub">estoque de materiais</text>
-    <rect x="550" y="300" width="180" height="56" rx="8" className="node"/>
-    <text x="640" y="324" textAnchor="middle" className="ntitle">Logística</text>
-    <text x="640" y="342" textAnchor="middle" className="nsub">transporte de materiais</text>
-    <g className="pt"><title>1. Operação para Manutenção: aviso de falha e pedido de serviço</title><circle cx="236" cy="118" r="10" className="badge"/><text x="236" y="122" textAnchor="middle" className="btxt">1</text></g>
-    <g className="pt"><title>2. Manutenção para Operação: programação das paradas e liberação do ativo</title><circle cx="268" cy="117" r="10" className="badge"/><text x="268" y="121" textAnchor="middle" className="btxt">2</text></g>
-    <g className="pt"><title>3. Manutenção para Suprimentos: requisição de compra com prioridade e data de necessidade</title><circle cx="330" cy="180" r="10" className="badge"/><text x="330" y="184" textAnchor="middle" className="btxt">3</text></g>
-    <g className="pt"><title>4. Suprimentos para Manutenção: negociação e aprovação conforme alçadas</title><circle cx="430" cy="198" r="10" className="badge"/><text x="430" y="202" textAnchor="middle" className="btxt">4</text></g>
-    <g className="pt"><title>5. Suprimentos para Logística: pedido e prazo de entrega</title><circle cx="640" cy="257" r="10" className="badge"/><text x="640" y="261" textAnchor="middle" className="btxt">5</text></g>
-    <g className="pt"><title>6. Logística para Almoxarifado: transporte e recebimento na usina</title><circle cx="511" cy="328" r="10" className="badge"/><text x="511" y="332" textAnchor="middle" className="btxt">6</text></g>
-    <g className="pt"><title>7. Almoxarifado para Manutenção: entrega de peças e componentes</title><circle cx="235" cy="261" r="10" className="badge"/><text x="235" y="265" textAnchor="middle" className="btxt">7</text></g>
-    <g className="pt"><title>8. Almoxarifado para Suprimentos: necessidade de reposição</title><circle cx="522" cy="260" r="10" className="badge"/><text x="522" y="264" textAnchor="middle" className="btxt">8</text></g>
-    <g className="pt"><title>9. Atalho emergencial: a manutenção compra direto do fornecedor e regulariza depois</title><circle cx="380" cy="395" r="10" className="badge"/><text x="380" y="399" textAnchor="middle" className="btxt">9</text></g>
-  </svg></div>
-</div>
+![Mapa de interações entre operação, manutenção, Suprimentos, almoxarifado e logística](../../assets/quem_se_relaciona_com_quem_e_o_que_circula_entre_as_areas.png)
 
 <p style={{textAlign: 'center'}}>Fonte: Elaborado pelos autores com base em Raízen (2025c; 2025d; 2026c; 2026d).</p>
 
