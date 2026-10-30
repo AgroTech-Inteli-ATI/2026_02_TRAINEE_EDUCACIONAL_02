@@ -129,7 +129,7 @@ Essas hipóteses serão testadas nas próximas seções e no Entregável 2.
 :::
 
 :::note Limitações e premissas
-* Os dados operacionais referem-se à safra 2025/26 (abril de 2025 a março de 2026). A página [Contexto do setor sucroenergético](./Contexto_Setorial.md) usa dados da safra 2024/25 (35 parques produtivos). Parte da diferença em relação às 24 usinas atuais reflete os desinvestimentos. Outra parte pode decorrer de critérios diferentes de contagem entre os relatórios.
+* Os dados operacionais referem-se à safra 2025/26 (abril de 2025 a março de 2026), base adotada em todo o projeto. A página [Contexto do setor sucroenergético](./Contexto_Setorial.md) usa dados da safra 2024/25 (35 usinas). O Relatório Integrado 2025/26 explica 5 dessas saídas (Santa Elisa descontinuada e quatro usinas vendidas). A diferença restante pode refletir hibernações e critérios de contagem diferentes entre os relatórios. A reconciliação completa dos números entre as páginas está nos [números-base](../003_Materiais_MRO_Centralizacao/Retomada_Contexto.md#numeros-base).
 * A venda de Caarapó depende da aprovação do CADE, por isso a contagem de 23 usinas é prospectiva.
 * O Relatório Integrado é uma publicação da própria companhia e pode conter viés de autorrelato. Os dados financeiros e operacionais, porém, têm origem em demonstrações auditadas pela PwC.
 * Os termos finais da reestruturação podem diferir da proposta de maio de 2026. A composição acionária posterior à conversão da dívida ainda não está refletida em documento oficial consultado.
@@ -286,7 +286,7 @@ A crise financeira também mudou a relação com os fornecedores. Em 31/03/2025,
 
 ### Atendimento às unidades
 
-O atendimento às 23 usinas acontece em duas camadas ([Raízen](https://www.raizen.com.br/items-files/item-1495-plt-02-politica-sustentavel-de-suprimentos.pdf), 2025c):
+O atendimento às 24 usinas (23 após a venda de Caarapó) acontece em duas camadas ([Raízen](https://www.raizen.com.br/items-files/item-1495-plt-02-politica-sustentavel-de-suprimentos.pdf), 2025c):
 
 * **Corporativa:** Suprimentos negocia, homologa e contrata, e mantém acordos comerciais. Com eles, o pedido de compra é "emitido automaticamente pelo sistema (ERP/SAP) com base em uma requisição", o que encurta o ciclo para itens recorrentes.
 * **Local:** em cada unidade, o Gestor do Contrato e o Gestor Local fazem a homologação técnica, quando aplicável, com apoio de SSMA e Qualidade. Eles também acompanham a execução dos serviços e avaliam o desempenho do fornecedor.
@@ -362,7 +362,7 @@ Três situações concentram a tensão entre as áreas:
    - *Evidência:* a figura do fornecedor "estratégico ou exclusivo" existe, e o almoxarifado caiu 24% desde 2024.
    - *Inferência:* decidir quanto estocar exige um acordo entre a manutenção, que enxerga o risco de parada, e Suprimentos, que enxerga o custo e o capital imobilizado. Nenhuma das duas áreas decide sozinha.
 3. **Onde manter o estoque numa rede menor (interações 5, 6 e 8).**
-   - *Evidência:* a rede passou de 24 para 23 usinas, com vendas e hibernações.
+   - *Evidência:* a rede passou de 35 usinas na safra 2024/25 para 24 em 31/03/2026, com vendas, descontinuação e hibernações, e deve chegar a 23 com a venda de Caarapó, ainda sujeita ao CADE.
    - *Inferência:* com unidades saindo, mudam as distâncias e os volumes entre os almoxarifados. Isso reabre a pergunta sobre manter estoque em cada usina ou compartilhá-lo, tema do Entregável 2.
 
 :::note Limitações
